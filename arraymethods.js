@@ -12,6 +12,10 @@ artist.push = ("Lazerhawk","Zane Alexander","oDDling","Skjalg A. Skagen","Maya &
 
 // DOM SHIT //
 let selectDiv = document.getElementById("musicDiv");
+let selectSong = document.getElementById("songSec");
+let selectAlbum = document.getElementById("albumSec");
+let selectArtist = document.getElementById("artistSec");
+
 
 selectDiv.innerHTML = 
 `<section id="songSec"><label>song: </label></section>
